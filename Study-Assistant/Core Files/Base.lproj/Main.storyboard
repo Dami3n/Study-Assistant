@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mJv-Fs-5ZN">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
@@ -7,20 +7,314 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--All Test View Controller-->
+        <!--Classes View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="AllTestViewController" customModule="Study_Assistant" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ClassesViewController" customModule="Study_Assistant" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="RgU-A6-mjq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="119"/>
+            <point key="canvasLocation" x="1047.8260869565217" y="118.52678571428571"/>
+        </scene>
+        <!--Classes View Controller-->
+        <scene sceneID="Awo-5x-ia0">
+            <objects>
+                <viewController id="fDt-7S-uRe" customClass="ClassesViewController" customModule="Study_Assistant" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zvk-LP-5e5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Uma-cB-n94"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F0Q-Ss-y33" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1985.5072463768117" y="117.85714285714285"/>
+        </scene>
+        <!--Notebook View Controller-->
+        <scene sceneID="xpx-sq-5Te">
+            <objects>
+                <viewController id="Hdp-Yv-MPk" customClass="NotebookViewController" customModule="Study_Assistant" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qVy-oJ-TPC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="xge-ll-mRS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bmJ-G1-phT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2957.971014492754" y="118.52678571428571"/>
+        </scene>
+        <!--Test View Controller-->
+        <scene sceneID="qYC-2J-zTb">
+            <objects>
+                <viewController id="MXK-jM-fE9" customClass="TestViewController" customModule="Study_Assistant" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5WW-T6-fr6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="f28-tP-8pP"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oXp-fX-OR9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4021.739130434783" y="-680.35714285714278"/>
+        </scene>
+        <!--Create Note View Controller-->
+        <scene sceneID="Yia-jB-3Dq">
+            <objects>
+                <viewController id="UA4-JZ-9Ce" customClass="CreateNoteViewController" customModule="Study_Assistant" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ymm-50-szr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="dHL-Of-0Oe"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T5v-S8-V07" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4021.739130434783" y="117.85714285714285"/>
+        </scene>
+        <!--Note Template View Controller-->
+        <scene sceneID="3KI-kD-0eQ">
+            <objects>
+                <viewController id="HkX-Xq-BIf" customClass="NoteTemplateViewController" customModule="Study_Assistant" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wCJ-VD-XfQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="XwQ-Yu-4tU"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Upv-hn-1WG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5142.0289855072469" y="118.52678571428571"/>
+        </scene>
+        <!--Note Charting View Controller-->
+        <scene sceneID="eYP-a5-PGJ">
+            <objects>
+                <viewController id="BMb-ae-TB5" customClass="NoteChartingViewController" customModule="Study_Assistant" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d2G-1I-IDz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="pdC-Qz-uFT"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LUO-Xo-uAd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6318.840579710145" y="878.57142857142856"/>
+        </scene>
+        <!--Note Sentencing View Controller-->
+        <scene sceneID="j10-gr-G4B">
+            <objects>
+                <viewController id="VwW-TR-JpL" customClass="NoteSentencingViewController" customModule="Study_Assistant" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pDF-U1-fYG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Lz5-2X-zci"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bXG-Vp-6tH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7397.1014492753629" y="878.57142857142856"/>
+        </scene>
+        <!--Note Blank View Controller-->
+        <scene sceneID="hk7-qa-Xck">
+            <objects>
+                <viewController id="RDh-36-f5l" customClass="NoteBlankViewController" customModule="Study_Assistant" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RoY-dU-mFH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="YHh-B9-IxC"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5gf-i1-qdQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8526.0869565217399" y="878.57142857142856"/>
+        </scene>
+        <!--Note Cornell View Controller-->
+        <scene sceneID="YEy-1u-g0D">
+            <objects>
+                <viewController id="8DE-w1-DqJ" customClass="NoteCornellViewController" customModule="Study_Assistant" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GpX-Ox-0aO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Wbg-cb-9iZ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uB4-FZ-WIJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6318.840579710145" y="-680.35714285714278"/>
+        </scene>
+        <!--Note Mapping View Controller-->
+        <scene sceneID="fmj-1W-WcX">
+            <objects>
+                <viewController id="2wE-X4-5aK" customClass="NoteMappingViewController" customModule="Study_Assistant" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lXC-Rq-YYx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Epv-XO-HvL"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WeL-BU-reQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7397.1014492753629" y="-680.35714285714278"/>
+        </scene>
+        <!--Note Outlining View Controller-->
+        <scene sceneID="qtB-IK-0Yz">
+            <objects>
+                <viewController id="Xa5-US-wsf" customClass="NoteOutliningViewController" customModule="Study_Assistant" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e9T-Vz-mmT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="uuP-JP-drH"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lQB-nh-tQV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8526.0869565217399" y="-680.35714285714278"/>
+        </scene>
+        <!--Create Notebook View Controller-->
+        <scene sceneID="yP1-7v-mPd">
+            <objects>
+                <viewController id="Tlw-mq-1iR" customClass="CreateNotebookViewController" customModule="Study_Assistant" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eFa-Wu-Z7v">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="P0u-fl-kO2"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fQH-as-BIq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2957.971014492754" y="878.57142857142856"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="thD-cP-98R">
+            <objects>
+                <tabBarController storyboardIdentifier="TabBarController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="bSB-PF-bmZ" customClass="TabBarController" customModule="Study_Assistant" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="huL-nF-vkN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="mJv-Fs-5ZN" kind="relationship" relationship="viewControllers" id="9gE-3x-7p4"/>
+                        <segue destination="dJl-hA-gbz" kind="relationship" relationship="viewControllers" id="f6U-LN-3z1"/>
+                        <segue destination="ijf-X4-gZ6" kind="relationship" relationship="viewControllers" id="1Lq-0L-MEp"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a3h-MK-vv9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1426" y="119"/>
+        </scene>
+        <!--Search View Controller-->
+        <scene sceneID="Xv5-uk-SxC">
+            <objects>
+                <viewController id="Bjn-0g-PEl" customClass="SearchViewController" customModule="Study_Assistant" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ugm-uo-gdZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Wsb-gJ-0nu"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5O3-T9-oVF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wCm-yq-Mlc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="878.57142857142856"/>
+        </scene>
+        <!--All Test View Controller-->
+        <scene sceneID="bt0-YC-TsV">
+            <objects>
+                <viewController id="K4H-fl-DFK" customClass="AllTestViewController" customModule="Study_Assistant" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lUA-cx-BtW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="UBd-H5-lME"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="bfL-Q9-skf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fAd-hF-eZ1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="-680.35714285714278"/>
+        </scene>
+        <!--Tests-->
+        <scene sceneID="ddy-v1-eHo">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dJl-hA-gbz" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Tests" image="pencil" catalog="system" id="7Mk-UI-6AN"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6P7-Ok-Ozf">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="K4H-fl-DFK" kind="relationship" relationship="rootViewController" id="5wv-sd-6ba"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qaG-Af-8Ue" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="-680.35714285714278"/>
+        </scene>
+        <!--Class-->
+        <scene sceneID="af6-O8-ghz">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mJv-Fs-5ZN" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Class" image="book.fill" catalog="system" id="a5X-Jk-WSe"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="UVC-bu-kWl">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="QT1-qG-2WZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ean-mC-sTg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="118.52678571428571"/>
+        </scene>
+        <!--Search-->
+        <scene sceneID="WIp-Ff-EhL">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ijf-X4-gZ6" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Search" image="magnifyingglass.circle.fill" catalog="system" id="dMt-Sg-iPi"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="eWk-pg-w56">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Bjn-0g-PEl" kind="relationship" relationship="rootViewController" id="rCQ-cw-MwM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jda-YO-7U9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="878.57142857142856"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="book.fill" catalog="system" width="64" height="50"/>
+        <image name="magnifyingglass.circle.fill" catalog="system" width="64" height="60"/>
+        <image name="pencil" catalog="system" width="64" height="56"/>
+    </resources>
 </document>
