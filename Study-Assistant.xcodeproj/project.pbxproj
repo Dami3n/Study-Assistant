@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		DF103B00240BD3C400712ED8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF103AFF240BD3C400712ED8 /* AppDelegate.swift */; };
 		DF103B02240BD3C400712ED8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF103B01240BD3C400712ED8 /* SceneDelegate.swift */; };
-		DF103B04240BD3C400712ED8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF103B03240BD3C400712ED8 /* ViewController.swift */; };
 		DF103B07240BD3C400712ED8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF103B05240BD3C400712ED8 /* Main.storyboard */; };
 		DF103B0A240BD3C400712ED8 /* Study_Assistant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF103B08240BD3C400712ED8 /* Study_Assistant.xcdatamodeld */; };
 		DF103B0C240BD3C500712ED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF103B0B240BD3C500712ED8 /* Assets.xcassets */; };
 		DF103B0F240BD3C500712ED8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF103B0D240BD3C500712ED8 /* LaunchScreen.storyboard */; };
 		DF103B1A240BD3C500712ED8 /* Study_AssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF103B19240BD3C500712ED8 /* Study_AssistantTests.swift */; };
 		DF103B25240BD3C500712ED8 /* Study_AssistantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF103B24240BD3C500712ED8 /* Study_AssistantUITests.swift */; };
+		DF103B34240BD53600712ED8 /* AllTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF103B33240BD53600712ED8 /* AllTestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 		DF103AFC240BD3C400712ED8 /* Study-Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Study-Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF103AFF240BD3C400712ED8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF103B01240BD3C400712ED8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DF103B03240BD3C400712ED8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DF103B06240BD3C400712ED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF103B09240BD3C400712ED8 /* Study_Assistant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Study_Assistant.xcdatamodel; sourceTree = "<group>"; };
 		DF103B0B240BD3C500712ED8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		DF103B20240BD3C500712ED8 /* Study-AssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Study-AssistantUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF103B24240BD3C500712ED8 /* Study_AssistantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Study_AssistantUITests.swift; sourceTree = "<group>"; };
 		DF103B26240BD3C500712ED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF103B33240BD53600712ED8 /* AllTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +101,12 @@
 		DF103AFE240BD3C400712ED8 /* Study-Assistant */ = {
 			isa = PBXGroup;
 			children = (
-				DF103AFF240BD3C400712ED8 /* AppDelegate.swift */,
-				DF103B01240BD3C400712ED8 /* SceneDelegate.swift */,
-				DF103B03240BD3C400712ED8 /* ViewController.swift */,
-				DF103B05240BD3C400712ED8 /* Main.storyboard */,
+				DF103B32240BD4A300712ED8 /* Core Files */,
 				DF103B0B240BD3C500712ED8 /* Assets.xcassets */,
 				DF103B0D240BD3C500712ED8 /* LaunchScreen.storyboard */,
 				DF103B10240BD3C500712ED8 /* Info.plist */,
 				DF103B08240BD3C400712ED8 /* Study_Assistant.xcdatamodeld */,
+				DF103B33240BD53600712ED8 /* AllTestViewController.swift */,
 			);
 			path = "Study-Assistant";
 			sourceTree = "<group>";
@@ -129,6 +127,16 @@
 				DF103B26240BD3C500712ED8 /* Info.plist */,
 			);
 			path = "Study-AssistantUITests";
+			sourceTree = "<group>";
+		};
+		DF103B32240BD4A300712ED8 /* Core Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF103AFF240BD3C400712ED8 /* AppDelegate.swift */,
+				DF103B01240BD3C400712ED8 /* SceneDelegate.swift */,
+				DF103B05240BD3C400712ED8 /* Main.storyboard */,
+			);
+			path = "Core Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +270,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF103B04240BD3C400712ED8 /* ViewController.swift in Sources */,
 				DF103B00240BD3C400712ED8 /* AppDelegate.swift in Sources */,
 				DF103B0A240BD3C400712ED8 /* Study_Assistant.xcdatamodeld in Sources */,
+				DF103B34240BD53600712ED8 /* AllTestViewController.swift in Sources */,
 				DF103B02240BD3C400712ED8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
