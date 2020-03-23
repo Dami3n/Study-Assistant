@@ -21,7 +21,6 @@
 		DF103B3D240BD76300712ED8 /* NotebookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF103B3C240BD76300712ED8 /* NotebookViewController.swift */; };
 		DF103B3F240BD77100712ED8 /* CreateNotebookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF103B3E240BD77100712ED8 /* CreateNotebookViewController.swift */; };
 		DF103B41240BD78000712ED8 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF103B40240BD78000712ED8 /* TestViewController.swift */; };
-		DF103B43240BD79600712ED8 /* CreateNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF103B42240BD79600712ED8 /* CreateNoteViewController.swift */; };
 		DF103B45240BD7DA00712ED8 /* NoteTemplateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF103B44240BD7DA00712ED8 /* NoteTemplateViewController.swift */; };
 		DF103B47240BD7F100712ED8 /* NoteCornellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF103B46240BD7F100712ED8 /* NoteCornellViewController.swift */; };
 		DF103B49240BD7F700712ED8 /* NoteMappingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF103B48240BD7F700712ED8 /* NoteMappingViewController.swift */; };
@@ -31,6 +30,10 @@
 		DF103B51240BD82500712ED8 /* NoteBlankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF103B50240BD82500712ED8 /* NoteBlankViewController.swift */; };
 		DF103B59240BDF8F00712ED8 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF103B58240BDF8E00712ED8 /* TabBarController.swift */; };
 		DF103B5B240BE80700712ED8 /* EntranceScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF103B5A240BE80700712ED8 /* EntranceScreen.storyboard */; };
+		DF103B5D24187C0700712ED8 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF103B5C24187C0700712ED8 /* Note.swift */; };
+		DF103B5F2418859E00712ED8 /* CreateNoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF103B5E2418859E00712ED8 /* CreateNoteTableViewController.swift */; };
+		DF103B632418884E00712ED8 /* TemplatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF103B622418884E00712ED8 /* TemplatePickerViewController.swift */; };
+		DF103B6724283B4E00712ED8 /* NoteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF103B6624283B4E00712ED8 /* NoteList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,7 +74,6 @@
 		DF103B3C240BD76300712ED8 /* NotebookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebookViewController.swift; sourceTree = "<group>"; };
 		DF103B3E240BD77100712ED8 /* CreateNotebookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNotebookViewController.swift; sourceTree = "<group>"; };
 		DF103B40240BD78000712ED8 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
-		DF103B42240BD79600712ED8 /* CreateNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNoteViewController.swift; sourceTree = "<group>"; };
 		DF103B44240BD7DA00712ED8 /* NoteTemplateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTemplateViewController.swift; sourceTree = "<group>"; };
 		DF103B46240BD7F100712ED8 /* NoteCornellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCornellViewController.swift; sourceTree = "<group>"; };
 		DF103B48240BD7F700712ED8 /* NoteMappingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteMappingViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +83,10 @@
 		DF103B50240BD82500712ED8 /* NoteBlankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteBlankViewController.swift; sourceTree = "<group>"; };
 		DF103B58240BDF8E00712ED8 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		DF103B5A240BE80700712ED8 /* EntranceScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EntranceScreen.storyboard; sourceTree = "<group>"; };
+		DF103B5C24187C0700712ED8 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		DF103B5E2418859E00712ED8 /* CreateNoteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNoteTableViewController.swift; sourceTree = "<group>"; };
+		DF103B622418884E00712ED8 /* TemplatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplatePickerViewController.swift; sourceTree = "<group>"; };
+		DF103B6624283B4E00712ED8 /* NoteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,10 +201,13 @@
 		DF103B53240BD84700712ED8 /* Section 1 - Note Foundation  */ = {
 			isa = PBXGroup;
 			children = (
+				DF103B6624283B4E00712ED8 /* NoteList.swift */,
 				DF103B50240BD82500712ED8 /* NoteBlankViewController.swift */,
 				DF103B44240BD7DA00712ED8 /* NoteTemplateViewController.swift */,
-				DF103B42240BD79600712ED8 /* CreateNoteViewController.swift */,
 				DF103B3C240BD76300712ED8 /* NotebookViewController.swift */,
+				DF103B5C24187C0700712ED8 /* Note.swift */,
+				DF103B5E2418859E00712ED8 /* CreateNoteTableViewController.swift */,
+				DF103B622418884E00712ED8 /* TemplatePickerViewController.swift */,
 			);
 			path = "Section 1 - Note Foundation ";
 			sourceTree = "<group>";
@@ -376,8 +385,11 @@
 				DF103B41240BD78000712ED8 /* TestViewController.swift in Sources */,
 				DF103B51240BD82500712ED8 /* NoteBlankViewController.swift in Sources */,
 				DF103B39240BD72300712ED8 /* SearchViewController.swift in Sources */,
+				DF103B632418884E00712ED8 /* TemplatePickerViewController.swift in Sources */,
 				DF103B3B240BD74E00712ED8 /* ClassFilesViewController.swift in Sources */,
+				DF103B6724283B4E00712ED8 /* NoteList.swift in Sources */,
 				DF103B00240BD3C400712ED8 /* AppDelegate.swift in Sources */,
+				DF103B5F2418859E00712ED8 /* CreateNoteTableViewController.swift in Sources */,
 				DF103B0A240BD3C400712ED8 /* Study_Assistant.xcdatamodeld in Sources */,
 				DF103B4B240BD80600712ED8 /* NoteOutliningViewController.swift in Sources */,
 				DF103B36240BD68900712ED8 /* ClassesViewController.swift in Sources */,
@@ -385,7 +397,7 @@
 				DF103B4F240BD81C00712ED8 /* NoteSentencingViewController.swift in Sources */,
 				DF103B49240BD7F700712ED8 /* NoteMappingViewController.swift in Sources */,
 				DF103B34240BD53600712ED8 /* AllTestViewController.swift in Sources */,
-				DF103B43240BD79600712ED8 /* CreateNoteViewController.swift in Sources */,
+				DF103B5D24187C0700712ED8 /* Note.swift in Sources */,
 				DF103B3F240BD77100712ED8 /* CreateNotebookViewController.swift in Sources */,
 				DF103B02240BD3C400712ED8 /* SceneDelegate.swift in Sources */,
 				DF103B3D240BD76300712ED8 /* NotebookViewController.swift in Sources */,

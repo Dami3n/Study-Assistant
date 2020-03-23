@@ -9,14 +9,30 @@
 import UIKit
 
 class NoteTemplateViewController: UIViewController {
-
+    
+    var selectedTemplate:String = ""
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
+           super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+           // Do any additional setup after loading the view.
+       }
+       
+    
+    @IBAction func blankTemplateButton(_ sender: Any) {
+        
+        selectedTemplate = "blank"
+        
+        
+        performSegue(withIdentifier : "templateSelectedReturnSegue", sender: self)
+        
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        var vc = segue.destination as! CreateNoteTableViewController
+        vc.tempTemplate = selectedTemplate
     }
     
-
+   
     /*
     // MARK: - Navigation
 

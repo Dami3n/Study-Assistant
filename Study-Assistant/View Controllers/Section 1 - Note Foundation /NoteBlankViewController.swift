@@ -9,9 +9,27 @@
 import UIKit
 
 class NoteBlankViewController: UIViewController {
+    
+    @IBOutlet weak var titleTextField: UITextField!
+    
+    @IBOutlet weak var contentOneTextView: UITextView!
+    
+    @IBAction func doneButton(_ sender: Any) {
+    }
+    
+
+    
+    
+    
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        titleTextField.text = note1.title
+        contentOneTextView.text = note1.contentOne
 
         // Do any additional setup after loading the view.
     }

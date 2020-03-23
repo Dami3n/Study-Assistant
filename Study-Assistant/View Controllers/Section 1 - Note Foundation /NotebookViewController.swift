@@ -9,7 +9,11 @@
 import UIKit
 
 class NotebookViewController: UIViewController {
-
+    
+    @IBAction func createNoteButton(_ sender: Any) {
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
